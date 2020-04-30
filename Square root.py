@@ -1,10 +1,12 @@
 #input asks the user to enter a positive number
-# square a*s is the calculation
+#square = math.sqrt(a) is the calculation
 #print(f) allows us to add integers and outputs to printed strings in the form of curly brackets {}
+
+import math
 
 a = int(input("Please enter a positive number: "))
 
-square = a*a
+square = math.sqrt(a)
 
-print(f"The Square of {a} is {square}.")
+print(f"The Square Root of {a} is {square}.")
 
